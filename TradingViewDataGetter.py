@@ -4,7 +4,7 @@ class DataScrapper:
     def __init__(self):
         # There exists multiple HTML div with class label valueValue-3kA0oJs5 containing price and indicator data we need.
         # The class ID valueValue-3kA0oJs5 could potentially change in future which will break this code!
-        self.classDataID = "valueValue-3kA0oJs5"
+        self.classDataID = "valueValue-2KhwsEwE"
         # Calling document.getElemntByClassName on page returns a list of all the HTML div.
         # This variable indexMapping will contain the mapping between index and price or indicator data.
         self.indexMapping = {"price":5,"indicator":8}
